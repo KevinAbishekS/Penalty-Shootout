@@ -43,8 +43,7 @@ let updatebuttontext = () => {
     else
     {
         turn= turn==1 ?2: turn== 2?1:turn;
-//      turn = team1.runs.length === 5 ?2 : team2.runs.length === 5 ?1 :turn;
-     button.textContent = `${turn === 1 ? team1.name : team2.name} Shooting`;
+        button.textContent = `${turn === 1 ? team1.name : team2.name} Shooting`;
     }
 }
 
